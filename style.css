@@ -3,7 +3,12 @@ body{
 }
 .fietsenwinkel{
     background-color: darkkhaki;
+    width: 300px;
 }
 .fietsenmaat{
     background-color: darkgoldenrod;
+    width: 300px;
+}
+label{
+    display: block;
 }

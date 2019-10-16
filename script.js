@@ -1,7 +1,7 @@
 
 
 $(document).ready(function () {
-    
+    $('.frm-bike-sizes > label').css('display', 'none');
     
     $('[value="elektrischeFietsenHeren"]').on("change", function () {
         $('label[for="fiets1"] , label[for="fiets2"] , label[for="fiets3"]').slideDown(1000);
