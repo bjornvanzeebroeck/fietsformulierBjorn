@@ -11,44 +11,66 @@
 <div class="fietsenwinkel">
     <h1> Kies je fiets</h1>
 
-       <form action="">
-        <label for="heren">stadsfietsen dames</label>
-        <input type="radio" name="fiets" value ="stadsfietsen-dames">
-        <br>
-        <label for="heren">stadsfietsen heren</label>
-        <input type="radio" name="fiets" value ="stadsfietsen-heren">
-        <br>
-        <label for="heren">elektrische fietsen dames</label>
-        <input type="radio" name="fiets" value ="elektrische fietsen-dames">
-        <br>
-        <label for="heren">elektrische fietsen heren</label>
-        <input type="radio" name="fiets" value ="elektrische fietsen-heren">
-        <br>
-        <label for="heren">vouwfietsen</label>
-        <input type="radio" name="fiets" value ="vouw-fietsen">
-       </form>
+       <form  action="">
+            <label for="">
+            <input type="radio" name="fiets" value ="stadsfietsenDames">Stadsfietsen Dames</label><br>
+            <label for="">
+            <input type="radio" name="fiets" value ="stadsfietsenHeren">Stadsfietsen Heren</label><br>
+            <label for="">
+            <input type="radio" name="fiets" value ="elektrischeFietsenDames">Elektrische Fietsen Dames</label><br>
+            <label for="">
+            <input type="radio" name="fiets" value ="elektrischeFietsenHeren">Elektrische Fietsen Heren</label><br>
+            <label for="">
+            <input type="radio" name="fiets" value ="vouwfietsen">Vouwfietsen</label><br>
 
+       </form>
+</div>
+
+<div class="fietsenmaat">
     <h1> Kies je maat</h1>
 
-    <form action="">
-        <label for="maat43">43</label>
-        <input type="radio" name="fietsmaat" value ="43">
-        <br>
-        <label for="maat50">50</label>
-        <input type="radio" name="fietsmaat" value ="50">
-        <br>
-        <label for="maat57">57</label>
-        <input type="radio" name="fietsmaat" value ="57">
-        <br>
-        <label for="maat61">61</label>
-        <input type="radio" name="fietsmaat" value ="61">
-        <br>
-        <label for="maatgeen">geen maat</label>
-        <input type="radio" name="fietsmaat" value ="geen maat">
+    <form id="frm-bike-sizes" action="">
+            <label for="fiets1">
+                <input type="radio" name="elektrische_fiets_heren" id="fiets1" value="50">Maat 50</label>
+                <br>
+            <label for="fiets2">
+                <input type="radio" name="elektrische_fiets_heren" id="fiets2" value="57">Maat 57</label>
+                <br>
+            <label for="fiets3">
+                <input type="radio" name="elektrische_fiets_heren" id="fiets3" value="61">Maat 61</label>
+                <br>
+            <label for="fiets4">
+                <input type="radio" name="stadsfiets_heren" id="fiets4" value="50">Maat 50</label>
+                <br>
+            <label for="fiets5">
+                <input type="radio" name="stadsfiets_heren" id="fiets5" value="57">Maat 57</label>
+                <br>
+            <label for="fiets6">
+                <input type="radio" name="stadsfiets_heren" id="fiets6" value="61">Maat 61</label>
+                <br>
+            <label for="fiets7">
+                <input type="radio" name="elektrische_fiets_dames" id="fiets7" value="43">Maat 43</label>
+                <br>
+            <label for="fiets8">
+                <input type="radio" name="elektrische_fiets_dames" id="fiets8" value="50">Maat 50</label>
+                <br>
+            <label for="fiets9">
+                <input type="radio" name="elektrische_fiets_dames" id="fiets9" value="57">Maat 57</label>
+                <br>
+            <label for="fiets10">
+                <input type="radio" name="stadsfiets_dames" id="fiets10" value="50">Maat 50</label>
+                <br>
+            <label for="fiets11">
+                <input type="radio" name="stadsfiets_dames" id="fiets11" value="57">Maat 57</label>
+                <br>
+            <label for="fiets12">
+                <input type="radio" name="vouwfiets" id="fiets12" value="57">Standaard maat</label>
+                <br>
     </form>
 
-        <input type="submit" value="Verstuur">
+       
     </div>
+            
 
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
